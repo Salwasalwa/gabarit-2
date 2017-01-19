@@ -1,0 +1,47 @@
+body {
+    background-color: #ffffff;
+}
+li {
+    box-sizing: border-box;
+    list-style: none;
+    display: inline-block;
+    padding-left: 2em;
+
+}
+header {
+    background-color: #222222;
+    color: #9d9d99;
+    height: 50px;
+
+}
+
+h1 {
+    color: #333333;
+}
+
+h2 {
+    color: #777777;
+}
+
+article{
+    box-sizing: border-box;
+    float: left;
+    width: 700px;
+}
+
+h3 {
+    color: #333346;
+}
+
+h4 {
+    color: #333339;
+}
+
+p {
+    color: #302f55;
+}
+
+ button{
+     background-color: #337ab7;
+     color: #dffbfa;
+ }
