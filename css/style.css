@@ -9,10 +9,24 @@ li {
 
 }
 header {
+    box-sizing: border-box;
     background-color: #222222;
     color: #9d9d99;
     height: 50px;
 
+}
+
+main {
+    margin: auto;
+}
+
+#titre {
+    margin-left: 50px;
+
+}
+h1, h2 {
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 h1 {
@@ -21,27 +35,55 @@ h1 {
 
 h2 {
     color: #777777;
+    padding-left: 0.5em;
 }
 
 article{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 325px;
+    border-top: 1px solid #9d9d99;
+
+}
+
+img {
     float: left;
-    width: 700px;
+    max-width: 700px;
+    max-height: 300px;
 }
 
 h3 {
     color: #333346;
+    width: 50%;
+    margin-left: 800px;
 }
 
 h4 {
     color: #333339;
+    width: 50%;
+    margin-left: 800px;
+
 }
 
-p {
+article p {
     color: #302f55;
+    width: 400px;
+    margin-left: 800px;
+    text-align: justify;
+
 }
 
  button{
+     width: 120px;
+     height: 40px;
+     border-radius: 10px;
      background-color: #337ab7;
      color: #dffbfa;
  }
+
+footer {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
